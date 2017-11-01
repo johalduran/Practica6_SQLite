@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/agregar"
+            android:icon="@android:drawable/ic_menu_more"
+            android:title="Agregar" />
+        <item
+            android:id="@+id/lista"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="Lista" />
+        <item
+            android:id="@+id/editar"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Editar" />
+        <item
+            android:id="@+id/eliminar"
+            android:icon="@android:drawable/ic_delete"
+            android:title="Eliminar" />
+    </group>
+
+</menu>
